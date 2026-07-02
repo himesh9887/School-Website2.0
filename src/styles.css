@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color: #0f172a;
+    background: #f8fafc;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at 10% 8%, rgba(245, 158, 11, 0.12), transparent 28rem),
+      radial-gradient(circle at 90% 16%, rgba(37, 99, 235, 0.13), transparent 30rem),
+      #f8fafc;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  :focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.35);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .premium-card {
+    @apply rounded-card border border-border bg-white shadow-soft transition duration-300;
+  }
+
+  .premium-card-hover {
+    @apply hover:-translate-y-2 hover:border-secondary/30 hover:shadow-premium;
+  }
+
+  .glass-panel {
+    @apply border border-white/25 bg-white/15 shadow-premium backdrop-blur-2xl;
+  }
+
+  .image-zoom {
+    @apply overflow-hidden rounded-card;
+  }
+
+  .image-zoom img {
+    @apply h-full w-full object-cover transition duration-700 hover:scale-110;
+  }
+
+  .nav-link {
+    @apply relative inline-flex min-h-11 items-center rounded-full px-4 text-sm font-bold text-dark/80 transition hover:text-primary;
+  }
+
+  .nav-link::after {
+    @apply absolute bottom-1.5 left-4 right-4 h-0.5 scale-x-0 rounded-full bg-accent transition duration-300 content-[''];
+  }
+
+  .nav-link.active {
+    @apply text-primary;
+  }
+
+  .nav-link.active::after,
+  .nav-link:hover::after {
+    @apply scale-x-100;
+  }
+
+  .form-field {
+    @apply min-h-[52px] w-full rounded-input border border-border bg-white px-4 text-dark outline-none transition placeholder:text-muted/70 focus:border-secondary focus:ring-4 focus:ring-secondary/10;
+  }
+
+  .custom-cursor-enabled,
+  .custom-cursor-enabled * {
+    cursor: none !important;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.88);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.72) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 28px !important;
+  border-radius: 999px !important;
+  background: #f59e0b !important;
+}

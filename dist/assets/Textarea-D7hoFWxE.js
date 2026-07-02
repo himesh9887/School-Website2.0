@@ -1,0 +1,6 @@
+import{c as l,j as e}from"./index-Cald5ku-.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const r=l("User",[["path",{d:"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2",key:"975kel"}],["circle",{cx:"12",cy:"7",r:"4",key:"17ys0d"}]]);function o({label:t,error:s,icon:a,...n}){return e.jsxs("label",{className:"block",children:[e.jsx("span",{className:"mb-2 block text-sm font-extrabold text-dark",children:t}),e.jsxs("span",{className:"relative block",children:[a&&e.jsx(a,{className:"pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-muted",size:18}),e.jsx("input",{className:`form-field ${a?"pl-11":""} ${s?"border-danger focus:border-danger focus:ring-danger/10":""}`,...n})]}),s&&e.jsx("span",{className:"mt-2 block text-sm font-semibold text-danger",children:s})]})}function d({label:t,error:s,...a}){return e.jsxs("label",{className:"block",children:[e.jsx("span",{className:"mb-2 block text-sm font-extrabold text-dark",children:t}),e.jsx("textarea",{className:`form-field min-h-32 resize-none py-4 ${s?"border-danger focus:border-danger focus:ring-danger/10":""}`,...a}),s&&e.jsx("span",{className:"mt-2 block text-sm font-semibold text-danger",children:s})]})}export{o as I,d as T,r as U};
