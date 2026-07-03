@@ -39,7 +39,7 @@ export default function App() {
   const location = useLocation();
 
   useEffect(() => {
-    const timer = window.setTimeout(() => setLoading(false), 1700);
+    const timer = window.setTimeout(() => setLoading(false), 4300);
     return () => window.clearTimeout(timer);
   }, []);
 

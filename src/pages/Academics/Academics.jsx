@@ -11,10 +11,10 @@ export default function Academics() {
   const methods = ['Teaching Methodology', 'Smart Classes', 'Assessment', 'Extra Activities'];
   return (
     <>
-      <PageBanner eyebrow="Academics" title="Rigorous learning with modern pedagogy." text="From nursery foundations to secondary specialization, our academic model is clear, supportive, and future-oriented." image="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="Academics" title="Rigorous learning with modern pedagogy." text="From nursery foundations to Class 8 readiness, our academic model is clear, supportive, and future-oriented." image="/mehar-banner.svg" />
       <section className="section-padding bg-background">
         <Container>
-          <SectionTitle eyebrow="Programs" title="Academic programs for every stage." subtitle="Each pathway is designed with clear milestones, mentorship, and age-appropriate independence." />
+          <SectionTitle eyebrow="Programs" title="Academic programs from Nursery to Class 8." subtitle="Each pathway is designed with clear milestones, mentorship, and age-appropriate independence." />
           <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {programs.map(({ title, icon: Icon, text }) => (
               <Card className="p-7" key={title}>

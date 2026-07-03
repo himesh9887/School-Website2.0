@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowUp, MessageCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { school } from '../data/siteData.js';
 
 export default function FloatingActions() {
   const [visible, setVisible] = useState(false);
@@ -18,7 +19,7 @@ export default function FloatingActions() {
     <div className="floating-actions">
       <motion.a
         className="whatsapp-button"
-        href="https://wa.me/910000000000?text=Hello%20Aurora%20International%20School"
+        href={school.whatsapp}
         target="_blank"
         rel="noreferrer"
         aria-label="Open WhatsApp chat"

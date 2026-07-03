@@ -11,7 +11,7 @@ export default function AdmissionBanner() {
             <CalendarCheck size={28} />
           </div>
           <div>
-            <h2 className="text-2xl font-black text-dark">Admissions are open for Nursery to Grade 12.</h2>
+            <h2 className="text-2xl font-black text-dark">Admissions are open for Nursery to Class 8.</h2>
             <p className="mt-2 leading-7 text-muted">Schedule a campus walkthrough and meet our academic coordinators this week.</p>
           </div>
           <Button to="/admissions" className="w-full sm:w-auto">Book A Tour</Button>

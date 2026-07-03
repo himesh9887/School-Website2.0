@@ -9,7 +9,7 @@ export default function Testimonials() {
   return (
     <section className="section-padding bg-white">
       <Container>
-        <SectionTitle eyebrow="Testimonials" title="Families feel the difference." subtitle="Parent and student voices from the Aurora community." />
+        <SectionTitle eyebrow="Testimonials" title="Families feel the difference." subtitle="Parent and student voices from the Mehar Academy community." />
         <Swiper modules={[Autoplay, Pagination]} loop autoplay={{ delay: 4300 }} pagination={{ clickable: true }} spaceBetween={24} breakpoints={{ 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }} className="pb-12">
           {testimonials.map((item) => (
             <SwiperSlide key={item.name}>

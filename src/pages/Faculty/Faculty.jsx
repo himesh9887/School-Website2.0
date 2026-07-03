@@ -6,7 +6,7 @@ import { faculty } from '../../data/siteData.js';
 export default function Faculty() {
   return (
     <>
-      <PageBanner eyebrow="Faculty" title="Mentors who know every learner by name." text="Meet the principal, vice principal, coordinators, and faculty who shape the Aurora experience." image="https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="Faculty" title="Mentors who know every learner by name." text="Meet the principal, coordinators, and faculty who shape the Mehar Academy experience." image="/mehar-banner.svg" />
       <section className="section-padding bg-background">
         <Container>
           <SectionTitle eyebrow="Leadership & Teachers" title="Experienced educators with a student-first mindset." subtitle="Faculty profiles include qualification, experience, department, and role clarity." />

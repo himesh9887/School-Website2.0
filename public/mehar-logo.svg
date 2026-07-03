@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Mehar Academy Logo</title>
+  <desc id="desc">A green tree growing from an open book with Mehar Academy text.</desc>
+  <rect width="800" height="800" fill="#ffffff"/>
+  <circle cx="400" cy="400" r="365" fill="none" stroke="#064624" stroke-width="16"/>
+  <g transform="translate(0 10)">
+    <path d="M390 400 C350 345 345 270 380 205 C410 250 420 320 405 402 Z" fill="#4a2b16"/>
+    <path d="M405 400 C455 340 455 265 420 205 C390 255 382 327 405 400 Z" fill="#5a3319"/>
+    <path d="M400 380 C330 300 265 252 200 230" fill="none" stroke="#4b2d17" stroke-width="11" stroke-linecap="round"/>
+    <path d="M405 372 C480 290 552 252 620 226" fill="none" stroke="#4b2d17" stroke-width="11" stroke-linecap="round"/>
+    <path d="M390 330 C325 292 280 285 230 288" fill="none" stroke="#4b2d17" stroke-width="9" stroke-linecap="round"/>
+    <path d="M410 325 C475 290 528 285 585 292" fill="none" stroke="#4b2d17" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#42a83d">
+      <ellipse cx="205" cy="223" rx="23" ry="12" transform="rotate(24 205 223)"/>
+      <ellipse cx="255" cy="205" rx="24" ry="13" transform="rotate(-18 255 205)"/>
+      <ellipse cx="305" cy="190" rx="25" ry="13" transform="rotate(30 305 190)"/>
+      <ellipse cx="355" cy="165" rx="25" ry="13" transform="rotate(-6 355 165)"/>
+      <ellipse cx="405" cy="145" rx="27" ry="14" transform="rotate(20 405 145)"/>
+      <ellipse cx="455" cy="168" rx="25" ry="13" transform="rotate(-24 455 168)"/>
+      <ellipse cx="510" cy="190" rx="25" ry="13" transform="rotate(14 510 190)"/>
+      <ellipse cx="565" cy="215" rx="24" ry="13" transform="rotate(-18 565 215)"/>
+      <ellipse cx="610" cy="250" rx="23" ry="12" transform="rotate(20 610 250)"/>
+      <ellipse cx="245" cy="280" rx="24" ry="13" transform="rotate(-8 245 280)"/>
+      <ellipse cx="300" cy="275" rx="23" ry="12" transform="rotate(22 300 275)"/>
+      <ellipse cx="352" cy="255" rx="25" ry="13" transform="rotate(-22 352 255)"/>
+      <ellipse cx="452" cy="252" rx="25" ry="13" transform="rotate(22 452 252)"/>
+      <ellipse cx="510" cy="275" rx="23" ry="12" transform="rotate(-16 510 275)"/>
+      <ellipse cx="565" cy="292" rx="24" ry="13" transform="rotate(20 565 292)"/>
+    </g>
+    <g>
+      <path d="M132 466 C238 420 332 431 397 502 C315 477 230 485 132 530 Z" fill="#064624"/>
+      <path d="M668 466 C562 420 468 431 403 502 C485 477 570 485 668 530 Z" fill="#c49b48"/>
+      <path d="M128 530 C246 503 335 515 398 568 C303 548 222 557 128 592 Z" fill="#d4ae5a"/>
+      <path d="M672 530 C554 503 465 515 402 568 C497 548 578 557 672 592 Z" fill="#d4ae5a"/>
+      <path d="M130 602 C250 574 346 588 400 642 C454 588 550 574 670 602" fill="none" stroke="#4b2d17" stroke-width="14" stroke-linecap="round"/>
+    </g>
+    <text x="400" y="682" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="700" letter-spacing="20" fill="#064624">MEHAR</text>
+    <text x="400" y="742" text-anchor="middle" font-family="Arial, sans-serif" font-size="45" font-weight="700" letter-spacing="18" fill="#b88b35">ACADEMY</text>
+  </g>
+</svg>

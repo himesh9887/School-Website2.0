@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
   return (
     <section className="section-padding bg-white">
       <Container>
-        <SectionTitle eyebrow="Why Choose Us" title="Designed for modern families and ambitious learners." subtitle="A premium school experience that is structured, warm, high-performing, and deeply student-centered." />
+        <SectionTitle eyebrow="Why Choose Us" title="Designed for modern families and ambitious learners." subtitle="A school experience that is structured, warm, focused, and deeply student-centered." />
         <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {whyChoose.map(({ title, icon: Icon, text }) => (
             <Card className="p-6" key={title}>

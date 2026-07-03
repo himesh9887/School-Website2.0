@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+  <title id="title">Mehar Academy Official Banner</title>
+  <desc id="desc">A green and gold school banner for Mehar Academy with learn, grow, succeed messaging.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbf5"/>
+      <stop offset="0.58" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#e3d09a"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" x2="1">
+      <stop offset="0" stop-color="#e5d7a8"/>
+      <stop offset="1" stop-color="#9b8a61"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="650" fill="url(#sky)"/>
+  <circle cx="1320" cy="195" r="135" fill="#f0c66b" opacity=".32" filter="url(#soft)"/>
+  <g opacity=".56">
+    <path d="M1030 515 L1190 300 L1325 515 Z" fill="url(#mountain)"/>
+    <path d="M1190 515 L1380 250 L1580 515 Z" fill="#c9b274"/>
+    <path d="M860 515 L1010 360 L1145 515 Z" fill="#ded0a6"/>
+  </g>
+  <g transform="translate(1260 165)">
+    <path d="M70 5 C112 16 137 34 160 54 C120 59 99 47 70 38 Z" fill="#063f21"/>
+    <line x1="70" y1="8" x2="70" y2="255" stroke="#1c201c" stroke-width="8"/>
+    <circle cx="62" cy="110" r="28" fill="#20241f"/>
+    <path d="M55 140 C40 196 26 246 18 305" stroke="#20241f" stroke-width="13" stroke-linecap="round"/>
+    <path d="M75 142 C92 193 104 240 116 302" stroke="#20241f" stroke-width="13" stroke-linecap="round"/>
+    <path d="M56 165 C35 201 21 232 0 265" stroke="#20241f" stroke-width="11" stroke-linecap="round"/>
+    <path d="M76 165 C100 198 118 228 142 260" stroke="#20241f" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(270 78) scale(.72)">
+    <use href="#logoMark"/>
+  </g>
+  <defs>
+    <g id="logoMark">
+      <path d="M380 390 C340 335 342 270 378 210 C405 255 415 326 398 405 Z" fill="#4a2b16"/>
+      <path d="M402 400 C455 342 452 265 420 205 C392 254 382 326 402 400 Z" fill="#5a3319"/>
+      <path d="M395 360 C325 292 260 252 200 235" fill="none" stroke="#4b2d17" stroke-width="10" stroke-linecap="round"/>
+      <path d="M405 360 C475 292 548 252 620 235" fill="none" stroke="#4b2d17" stroke-width="10" stroke-linecap="round"/>
+      <g fill="#42a83d">
+        <ellipse cx="220" cy="225" rx="22" ry="12" transform="rotate(24 220 225)"/>
+        <ellipse cx="275" cy="200" rx="24" ry="12" transform="rotate(-18 275 200)"/>
+        <ellipse cx="335" cy="172" rx="24" ry="13" transform="rotate(26 335 172)"/>
+        <ellipse cx="405" cy="148" rx="26" ry="14" transform="rotate(18 405 148)"/>
+        <ellipse cx="470" cy="172" rx="24" ry="13" transform="rotate(-24 470 172)"/>
+        <ellipse cx="535" cy="202" rx="24" ry="12" transform="rotate(14 535 202)"/>
+        <ellipse cx="600" cy="235" rx="22" ry="12" transform="rotate(-18 600 235)"/>
+        <ellipse cx="292" cy="280" rx="23" ry="12" transform="rotate(22 292 280)"/>
+        <ellipse cx="355" cy="258" rx="24" ry="13" transform="rotate(-22 355 258)"/>
+        <ellipse cx="455" cy="255" rx="24" ry="13" transform="rotate(22 455 255)"/>
+        <ellipse cx="525" cy="282" rx="23" ry="12" transform="rotate(-16 525 282)"/>
+      </g>
+      <path d="M150 475 C250 425 332 432 398 503 C315 480 230 486 150 528 Z" fill="#064624"/>
+      <path d="M650 475 C550 425 468 432 402 503 C485 480 570 486 650 528 Z" fill="#c49b48"/>
+      <path d="M145 535 C255 508 342 518 400 570 C458 518 545 508 655 535" fill="none" stroke="#d4ae5a" stroke-width="28" stroke-linecap="round"/>
+      <path d="M150 585 C260 560 348 580 400 632 C452 580 540 560 650 585" fill="none" stroke="#4b2d17" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <text x="845" y="235" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="124" font-weight="700" letter-spacing="10" fill="#063f21">MEHAR</text>
+  <text x="845" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="24" fill="#b88b35">ACADEMY</text>
+  <text x="845" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="24" fill="#063f21">OFFICIAL</text>
+  <rect x="718" y="410" width="332" height="44" rx="9" fill="#064624"/>
+  <text x="884" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="12" fill="#ffffff">LEARN GROW SUCCEED</text>
+  <g font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#063f21">
+    <text x="52" y="382">Empowering Minds.</text>
+    <text x="52" y="428">Inspiring Futures.</text>
+  </g>
+  <path d="M0 478 C260 574 430 522 700 548 C1000 574 1240 492 1600 518 L1600 650 L0 650 Z" fill="#064624"/>
+  <path d="M0 468 C310 560 502 512 750 536 C990 558 1230 484 1600 506" fill="none" stroke="#d8ac53" stroke-width="14"/>
+  <g transform="translate(430 505)" font-family="Arial, sans-serif">
+    <text x="60" y="28" fill="#063f21" font-size="28" font-weight="800">LEARN</text>
+    <text x="60" y="58" fill="#222" font-size="20">Every Day</text>
+    <text x="270" y="28" fill="#063f21" font-size="28" font-weight="800">GROW</text>
+    <text x="270" y="58" fill="#222" font-size="20">Step by Step</text>
+    <text x="500" y="28" fill="#063f21" font-size="28" font-weight="800">SUCCEED</text>
+    <text x="500" y="58" fill="#222" font-size="20">Make it Happen</text>
+  </g>
+  <text x="1230" y="604" font-family="Brush Script MT, Segoe Script, cursive" font-size="42" fill="#ffffff">Dream it. Learn it.</text>
+  <text x="1325" y="642" font-family="Brush Script MT, Segoe Script, cursive" font-size="42" fill="#d8ac53">Achieve it.</text>
+</svg>

@@ -25,7 +25,7 @@ export default function Admissions() {
 
   return (
     <>
-      <PageBanner eyebrow="Admissions" title="A clear, warm admissions journey." text="Understand eligibility, documents, timelines, fees, and admission interactions in one place." image="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="Admissions" title="A clear, warm admissions journey." text="Understand eligibility, documents, timelines, fees, and admission interactions from Nursery to Class 8." image="/mehar-banner.svg" />
       <section className="section-padding bg-background">
         <Container className="grid gap-10 lg:grid-cols-[.9fr_1.1fr]">
           <div>
@@ -48,7 +48,7 @@ export default function Admissions() {
               <label>
                 <span className="mb-2 block text-sm font-extrabold text-dark">Grade Applying For</span>
                 <select className="form-field" name="grade" defaultValue="Nursery">
-                  {['Nursery', 'Primary', 'Middle', 'Secondary'].map((grade) => <option key={grade}>{grade}</option>)}
+                  {['Nursery', 'LKG', 'UKG', 'Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5', 'Class 6', 'Class 7', 'Class 8'].map((grade) => <option key={grade}>{grade}</option>)}
                 </select>
               </label>
               <Textarea label="Message" name="message" placeholder="Tell us about your preferred tour date or questions." />

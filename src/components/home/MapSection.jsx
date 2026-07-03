@@ -18,7 +18,7 @@ export default function MapSection() {
           </div>
         </div>
         <div className="image-zoom min-h-[360px] shadow-premium">
-          <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1100&q=85" alt="Aurora International School campus map placeholder" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1100&q=85" alt="Mehar Academy campus map placeholder" loading="lazy" />
         </div>
       </Container>
     </section>

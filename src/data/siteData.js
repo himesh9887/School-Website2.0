@@ -29,12 +29,14 @@ import {
 } from 'lucide-react';
 
 export const school = {
-  name: 'Aurora International School',
-  shortName: 'Aurora',
+  name: 'Mehar Academy',
+  shortName: 'Mehar Academy',
   phone: '+91 90000 00000',
-  email: 'admissions@auroraschool.edu',
-  location: 'Knowledge Avenue, New Delhi',
-  whatsapp: 'https://wa.me/910000000000?text=Hello%20Aurora%20International%20School',
+  email: 'meharacademyofficial@gmail.com',
+  location: 'Mehar Academy Campus',
+  whatsapp: 'https://wa.me/910000000000?text=Hello%20Mehar%20Academy',
+  logo: '/mehar-logo.svg',
+  banner: '/mehar-banner.svg',
 };
 
 export const navLinks = [
@@ -57,48 +59,47 @@ export const socialLinks = [
 
 export const heroSlides = [
   {
-    title: 'Learning With Purpose. Leading With Heart.',
+    title: 'Learn. Grow. Succeed.',
     subtitle:
-      'A future-ready campus where academic depth, creative courage, and personal mentorship shape confident learners.',
-    image:
-      'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1800&q=85',
+      'Mehar Academy nurtures young learners with strong foundations, daily discipline, and caring guidance up to Class 8.',
+    image: school.banner,
   },
   {
-    title: 'A Premium Campus For Bright Young Minds.',
+    title: 'A Caring School For Bright Young Minds.',
     subtitle:
-      'Smart classrooms, innovation labs, performing arts, sports pathways, and wellbeing support in one vibrant ecosystem.',
+      'Classroom learning, activities, values, and safe routines help every child move forward with confidence.',
     image:
       'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1800&q=85',
   },
   {
     title: 'Admissions Open For The 2026-27 Session.',
     subtitle:
-      'Book a guided tour, meet our academic coordinators, and discover the Aurora learning experience.',
+      'Admissions are open from Nursery to Class 8. Book a visit and meet the Mehar Academy team.',
     image:
       'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1800&q=85',
   },
 ];
 
 export const stats = [
-  { value: 2400, suffix: '+', label: 'Students' },
-  { value: 145, suffix: '+', label: 'Expert Teachers' },
-  { value: 18, suffix: '+', label: 'Years of Excellence' },
-  { value: 97, suffix: '%', label: 'Board Results' },
-  { value: 12, suffix: ' acre', label: 'Green Campus' },
+  { value: 8, suffix: 'th', label: 'Classes Up To' },
+  { value: 25, suffix: '+', label: 'Dedicated Teachers' },
+  { value: 500, suffix: '+', label: 'Learners Guided' },
+  { value: 100, suffix: '%', label: 'Child Focused' },
+  { value: 3, suffix: '+', label: 'Learning Stages' },
 ];
 
 export const whyChoose = [
   { title: 'Mentor-Led Learning', icon: UsersRound, text: 'Every learner receives academic guidance, wellbeing check-ins, and personal growth goals.' },
-  { title: 'Global Curriculum Lens', icon: Languages, text: 'Strong CBSE foundations enriched with inquiry, communication, research, and global awareness.' },
-  { title: 'Innovation Culture', icon: Brain, text: 'Students build, test, present, and reflect through STEM labs, design sprints, and exhibitions.' },
-  { title: 'Safe Premium Campus', icon: ShieldCheck, text: 'Secure access, medical support, CCTV coverage, trained transport teams, and child-first policies.' },
+  { title: 'Strong Foundations', icon: Languages, text: 'Focused reading, writing, numeracy, communication, and values for Nursery to Class 8.' },
+  { title: 'Activity-Based Growth', icon: Brain, text: 'Children learn through practice, projects, presentations, competitions, and reflection.' },
+  { title: 'Safe School Culture', icon: ShieldCheck, text: 'Child-first routines, caring staff, secure spaces, and clear communication with families.' },
 ];
 
 export const programs = [
   { title: 'Nursery', icon: Sparkles, text: 'Play-based discovery, phonics, numeracy, movement, rhythm, and social confidence.' },
-  { title: 'Primary', icon: BookOpenCheck, text: 'Concept clarity, reading fluency, hands-on projects, clubs, sports, and values education.' },
-  { title: 'Middle', icon: Brain, text: 'Design thinking, labs, languages, competitive exposure, leadership, and guided independence.' },
-  { title: 'Secondary', icon: GraduationCap, text: 'Board mastery, career counseling, research projects, olympiad support, and university readiness.' },
+  { title: 'Primary', icon: BookOpenCheck, text: 'Concept clarity, reading fluency, handwriting, projects, sports, and values education.' },
+  { title: 'Junior', icon: Brain, text: 'Classes 6 to 8 build subject confidence, communication, responsibility, and guided independence.' },
+  { title: 'Class 8', icon: GraduationCap, text: 'Focused preparation, revision habits, leadership roles, and readiness for the next academic stage.' },
 ];
 
 export const facilities = [
@@ -122,38 +123,38 @@ export const galleryItems = [
 ];
 
 export const newsItems = [
-  { title: 'Admissions Open For 2026-27', date: 'July 18, 2026', category: 'Admissions', icon: CalendarDays, text: 'Campus tours, interaction slots, and scholarship conversations are now open for all grades.' },
-  { title: 'Aurora Robotics Team Reaches Nationals', date: 'August 04, 2026', category: 'Achievement', icon: Award, text: 'Senior students qualified after presenting an automated water conservation prototype.' },
-  { title: 'Global Languages Week Announced', date: 'September 12, 2026', category: 'Events', icon: Languages, text: 'Students will host exhibitions, performances, and cultural exchange sessions.' },
+  { title: 'Admissions Open For 2026-27', date: 'July 18, 2026', category: 'Admissions', icon: CalendarDays, text: 'Campus visits and interaction slots are open from Nursery to Class 8.' },
+  { title: 'Mehar Academy Activity Week', date: 'August 04, 2026', category: 'Achievement', icon: Award, text: 'Students will present classroom projects, speeches, art, and activity work.' },
+  { title: 'Language And Reading Week Announced', date: 'September 12, 2026', category: 'Events', icon: Languages, text: 'Students will take part in reading, handwriting, storytelling, and recitation activities.' },
   { title: 'Holiday List Published', date: 'October 01, 2026', category: 'Notice', icon: ClipboardCheck, text: 'The updated academic calendar and holiday list are available for families.' },
 ];
 
 export const faculty = [
-  { name: 'Dr. Meera Kapoor', role: 'Principal', department: 'Leadership', qualification: 'Ph.D. Education Leadership', experience: '24 years', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Raghav Sinha', role: 'Vice Principal', department: 'Academics', qualification: 'M.Ed., Curriculum Design', experience: '19 years', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Nisha Rao', role: 'Early Years Lead', department: 'Foundation', qualification: 'Diploma in Montessori', experience: '13 years', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Arjun Menon', role: 'STEM Coordinator', department: 'Science', qualification: 'M.Sc. Physics', experience: '15 years', image: 'https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Sara Thomas', role: 'English Faculty', department: 'Languages', qualification: 'M.A. English', experience: '11 years', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Kabir Sharma', role: 'Sports Director', department: 'Sports', qualification: 'NIS Certified Coach', experience: '16 years', image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=80' },
+  { name: 'Mehar Academy Principal', role: 'Principal', department: 'Leadership', qualification: 'Education Leadership', experience: '15+ years', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=80' },
+  { name: 'Academic Coordinator', role: 'Coordinator', department: 'Academics', qualification: 'Curriculum Planning', experience: '12+ years', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80' },
+  { name: 'Primary Wing Lead', role: 'Teacher', department: 'Primary', qualification: 'Primary Education', experience: '10+ years', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=700&q=80' },
+  { name: 'Science Faculty', role: 'Teacher', department: 'Science', qualification: 'Science Education', experience: '8+ years', image: 'https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?auto=format&fit=crop&w=700&q=80' },
+  { name: 'English Faculty', role: 'Teacher', department: 'Languages', qualification: 'English Education', experience: '8+ years', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=80' },
+  { name: 'Activity Incharge', role: 'Teacher', department: 'Activities', qualification: 'Sports And Activities', experience: '10+ years', image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=80' },
 ];
 
 export const testimonials = [
-  { name: 'Ananya Mehta', role: 'Parent, Grade 6', text: 'Aurora feels premium without feeling distant. Teachers know my child deeply and communicate with rare clarity.' },
-  { name: 'Dev Malhotra', role: 'Student, Grade 11', text: 'The labs, clubs, and mentoring helped me turn a robotics idea into a real national-level project.' },
-  { name: 'Priya Nair', role: 'Parent, Grade 2', text: 'The early years team balances warmth and structure beautifully. My daughter looks forward to school every day.' },
+  { name: 'Parent', role: 'Class 6', text: 'Mehar Academy gives personal attention and keeps families informed about every child progress.' },
+  { name: 'Student', role: 'Class 8', text: 'Teachers explain clearly and help us improve through practice, activities, and regular guidance.' },
+  { name: 'Parent', role: 'Class 2', text: 'The early classes balance warmth and discipline beautifully. My child enjoys school every day.' },
 ];
 
 export const events = [
-  { title: 'Founders Day Celebration', date: 'Aug 22', text: 'Awards, performances, exhibitions, and student leadership showcases.' },
-  { title: 'STEM Innovation Expo', date: 'Sep 10', text: 'Prototype demos, research posters, and parent walkthroughs.' },
-  { title: 'University Readiness Week', date: 'Oct 04', text: 'Counseling workshops, portfolio guidance, and alumni panels.' },
+  { title: 'Mehar Academy Celebration', date: 'Aug 22', text: 'Awards, performances, exhibitions, and student leadership showcases.' },
+  { title: 'Activity And Project Expo', date: 'Sep 10', text: 'Class projects, chart work, reading displays, and parent walkthroughs.' },
+  { title: 'Assessment Readiness Week', date: 'Oct 04', text: 'Revision guidance, study habits, and parent-teacher conversations.' },
 ];
 
 export const timeline = [
-  { year: '2008', title: 'Aurora was founded', text: 'Started with 220 students and a promise of personal mentorship.' },
-  { year: '2014', title: 'Senior wing launched', text: 'Expanded labs, counseling, and board preparation systems.' },
-  { year: '2019', title: 'Innovation campus opened', text: 'Added maker labs, digital library, and performing arts studios.' },
-  { year: '2026', title: 'Future-ready learning model', text: 'Integrated wellbeing, analytics, entrepreneurship, and global projects.' },
+  { year: 'Start', title: 'Mehar Academy was founded', text: 'Started with a promise of personal attention, values, and strong basics.' },
+  { year: 'Primary', title: 'Primary wing strengthened', text: 'Built clear routines for reading, writing, numeracy, and activity-based learning.' },
+  { year: 'Middle', title: 'Classes up to 8th', text: 'Expanded focused learning for junior and middle school children.' },
+  { year: 'Now', title: 'Learn, grow, succeed', text: 'Continuing with discipline, care, communication, and steady academic growth.' },
 ];
 
 export const admissionSteps = [

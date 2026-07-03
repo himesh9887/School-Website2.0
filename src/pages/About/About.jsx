@@ -11,11 +11,11 @@ import { stagger } from '../../utils/animations.js';
 export default function About() {
   return (
     <>
-      <PageBanner eyebrow="About Aurora" title="A premium school with a deeply human center." text="Discover our history, mission, leadership, values, achievements, and future-ready learning culture." image="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="About Mehar Academy" title="A caring school with a deeply human center." text="Discover our mission, values, leadership, achievements, and learning culture from Nursery to Class 8." image="/mehar-banner.svg" />
       <section className="section-padding bg-background">
         <Container className="grid gap-10 lg:grid-cols-[.95fr_1.05fr]">
           <div>
-            <SectionTitle align="left" eyebrow="Introduction" title="Built around mentorship, mastery, and meaningful participation." subtitle="Aurora International School was created for families who want strong academics without losing warmth, creativity, safety, and individual attention." />
+            <SectionTitle align="left" eyebrow="Introduction" title="Built around mentorship, mastery, and meaningful participation." subtitle="Mehar Academy was created for families who want strong academics without losing warmth, creativity, safety, and individual attention." />
             <Button to="/admissions">Begin Admissions</Button>
           </div>
           <div className="grid gap-5 sm:grid-cols-2">
@@ -26,8 +26,8 @@ export default function About() {
                   {[
                     'To nurture confident learners who think clearly, communicate beautifully, and lead ethically.',
                     'To combine rigorous academics, wellbeing, arts, sport, technology, and community service.',
-                    'Founded in 2008, Aurora has grown into a trusted school community with modern infrastructure.',
-                    'Consistent board results, innovation awards, sports titles, and strong university placements.',
+                    'Mehar Academy has grown into a trusted school community for Nursery to Class 8 learners.',
+                    'Steady academic progress, activity participation, values education, and parent trust.',
                   ][index]}
                 </p>
               </article>
@@ -51,8 +51,8 @@ export default function About() {
       <section className="section-padding bg-alternate">
         <Container className="grid gap-10 lg:grid-cols-2">
           {[
-            ['Chairman Message', 'We envisioned Aurora as a school where infrastructure, teaching quality, and emotional safety work together. Every decision is made with long-term student growth in mind.', 'Rajiv Malhotra'],
-            ['Principal Message', 'Our classrooms are designed for clarity, participation, feedback, and reflection. Students leave Aurora ready for exams, but also ready for life.', 'Dr. Meera Kapoor'],
+            ['Chairman Message', 'We envisioned Mehar Academy as a school where teaching quality, discipline, care, and emotional safety work together. Every decision is made with long-term student growth in mind.', 'Management'],
+            ['Principal Message', 'Our classrooms are designed for clarity, participation, feedback, and reflection. Students leave Mehar Academy ready for exams, but also ready for life.', 'Principal'],
           ].map(([title, text, name]) => (
             <article className="premium-card p-8" key={title}>
               <h2 className="text-2xl font-black">{title}</h2>
@@ -64,7 +64,7 @@ export default function About() {
       </section>
       <section className="section-padding bg-white">
         <Container>
-          <SectionTitle eyebrow="Journey" title="Aurora through the years." subtitle="A thoughtful timeline of growth, investment, and educational evolution." />
+          <SectionTitle eyebrow="Journey" title="Mehar Academy through the years." subtitle="A thoughtful timeline of growth, care, and educational evolution." />
           <div className="grid gap-5 lg:grid-cols-4">
             {timeline.map((item) => (
               <article className="premium-card premium-card-hover p-6" key={item.year}>

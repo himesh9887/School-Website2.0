@@ -30,7 +30,9 @@ export default function Navbar() {
     >
       <div className="flex min-w-0 items-center justify-between gap-3">
         <NavLink className="flex min-w-0 items-center gap-3" to="/" onClick={() => setOpen(false)}>
-          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-royal text-xl font-black text-white shadow-glow">A</span>
+          <span className="grid h-11 w-11 shrink-0 place-items-center overflow-hidden rounded-2xl bg-white shadow-glow">
+            <img className="h-full w-full object-contain p-1" src={school.logo} alt={`${school.name} logo`} />
+          </span>
           <span className="max-w-[130px] truncate text-lg font-black sm:max-w-none">{school.shortName}</span>
         </NavLink>
 
@@ -43,7 +45,7 @@ export default function Navbar() {
               </NavLink>
               {item.label === 'Academics' && (
                 <div className="pointer-events-none absolute left-1/2 top-full w-56 -translate-x-1/2 translate-y-3 rounded-card border border-border bg-white p-3 text-dark opacity-0 shadow-premium transition duration-300 group-hover:pointer-events-auto group-hover:translate-y-2 group-hover:opacity-100">
-                  {['Nursery', 'Primary', 'Middle', 'Secondary'].map((label) => (
+                  {['Nursery', 'Primary', 'Class 6', 'Class 7', 'Class 8'].map((label) => (
                     <NavLink className="block rounded-2xl px-4 py-3 text-sm font-bold hover:bg-alternate hover:text-primary" to="/academics" key={label}>{label}</NavLink>
                   ))}
                 </div>

@@ -10,11 +10,13 @@ export default function Footer() {
       <Container className="grid gap-9 py-10 text-center sm:text-left lg:grid-cols-[1.4fr_.8fr_.8fr_1.1fr] lg:gap-10 lg:py-14">
         <div className="grid justify-items-center sm:justify-items-start">
           <div className="flex max-w-full items-center justify-center gap-3 sm:justify-start">
-            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-royal text-xl font-black shadow-glow">A</span>
+            <span className="grid h-12 w-12 shrink-0 place-items-center overflow-hidden rounded-2xl bg-white shadow-glow">
+              <img className="h-full w-full object-contain p-1" src={school.logo} alt={`${school.name} logo`} />
+            </span>
             <strong className="min-w-0 text-lg font-black leading-tight sm:text-xl">{school.name}</strong>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-7 text-white/68 sm:mt-5 sm:text-base sm:leading-8">
-            A premium learning community committed to academic excellence, creative confidence, wellbeing, and ethical leadership.
+            A caring learning community committed to strong basics, good values, safe growth, and confidence up to Class 8.
           </p>
           <div className="mt-5 flex justify-center gap-3 sm:mt-6 sm:justify-start">
             <a aria-label="Facebook" className="grid h-11 w-11 place-items-center rounded-full bg-white/10 transition hover:bg-accent hover:text-dark" href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>

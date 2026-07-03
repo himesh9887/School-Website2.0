@@ -10,7 +10,7 @@ export default function AboutPreview() {
     <section className="section-padding bg-background">
       <Container className="grid items-center gap-10 lg:grid-cols-[.95fr_1.05fr]">
         <motion.div variants={fadeLeft} initial="hidden" whileInView="show" viewport={{ once: true }}>
-          <SectionTitle align="left" eyebrow="About Aurora" title="A school built for calm excellence and courageous curiosity." subtitle="Aurora blends rigorous academics with creative studios, sports, global perspectives, wellbeing systems, and meaningful mentorship." />
+          <SectionTitle align="left" eyebrow="About Mehar Academy" title="A school built for calm excellence and courageous curiosity." subtitle="Mehar Academy blends strong academics with activities, sports, values, safety, and meaningful mentorship up to Class 8." />
           <div className="mt-7 grid gap-3 sm:grid-cols-2">
             {values.map(({ icon: Icon, label }) => (
               <div className="flex min-h-12 items-center gap-3 rounded-2xl border border-border bg-white px-4 font-extrabold text-primary shadow-soft" key={label}>
@@ -25,8 +25,8 @@ export default function AboutPreview() {
             <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85" alt="Students collaborating outdoors" loading="lazy" />
           </div>
           <div className="absolute bottom-5 right-5 max-w-xs rounded-card border border-white/30 bg-white/90 p-5 shadow-premium backdrop-blur-xl">
-            <strong className="text-primary">97% parent satisfaction</strong>
-            <p className="mt-2 text-sm leading-6 text-muted">Families value our communication, mentoring, and safe campus culture.</p>
+            <strong className="text-primary">Nursery to Class 8</strong>
+            <p className="mt-2 text-sm leading-6 text-muted">Families value our communication, mentoring, and safe school culture.</p>
           </div>
         </motion.div>
       </Container>
