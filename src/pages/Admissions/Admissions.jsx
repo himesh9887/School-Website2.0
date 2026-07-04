@@ -6,7 +6,7 @@ import Input from '../../components/common/Input.jsx';
 import PageBanner from '../../components/common/PageBanner.jsx';
 import SectionTitle from '../../components/common/SectionTitle.jsx';
 import Textarea from '../../components/common/Textarea.jsx';
-import { admissionSteps } from '../../data/siteData.js';
+import { admissionSteps, school } from '../../data/siteData.js';
 
 export default function Admissions() {
   const [submitted, setSubmitted] = useState(false);
@@ -25,7 +25,7 @@ export default function Admissions() {
 
   return (
     <>
-      <PageBanner eyebrow="Admissions" title="A clear, warm admissions journey." text="Understand eligibility, documents, timelines, fees, and admission interactions from Nursery to Class 8." image="/mehar-banner.svg" />
+      <PageBanner eyebrow="Admissions" title="Admissions open for Nursery to Class 8." text="Submit an inquiry, visit the campus, and learn about admission for Nursery, Primary, and Upper Primary classes." image="/mehar-campus-gate.jpeg" />
       <section className="section-padding bg-background">
         <Container className="grid gap-10 lg:grid-cols-[.9fr_1.1fr]">
           <div>
@@ -43,8 +43,8 @@ export default function Admissions() {
             <h2 className="text-2xl font-black">Admission Enquiry Form</h2>
             <div className="mt-6 grid gap-5">
               <Input label="Parent Name" name="name" icon={User} error={errors.name} placeholder="Enter full name" />
-              <Input label="Phone Number" name="phone" icon={Phone} error={errors.phone} placeholder="+91 90000 00000" />
-              <Input label="Email Address" name="email" icon={Mail} error={errors.email} placeholder="parent@example.com" />
+              <Input label="Phone Number" name="phone" icon={Phone} error={errors.phone} placeholder={school.phone} />
+              <Input label="Email Address" name="email" icon={Mail} error={errors.email} placeholder={school.email} />
               <label>
                 <span className="mb-2 block text-sm font-extrabold text-dark">Grade Applying For</span>
                 <select className="form-field" name="grade" defaultValue="Nursery">

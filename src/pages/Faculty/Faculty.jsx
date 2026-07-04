@@ -6,10 +6,10 @@ import { faculty } from '../../data/siteData.js';
 export default function Faculty() {
   return (
     <>
-      <PageBanner eyebrow="Faculty" title="Mentors who know every learner by name." text="Meet the principal, coordinators, and faculty who shape the Mehar Academy experience." image="/mehar-banner.svg" />
+      <PageBanner eyebrow="Faculty" title="School leadership and teaching team." text="Meet the Headmaster and the team guiding Mehar Academy students with discipline, care, and regular learning." image="/mehar-campus-collage.jpeg" />
       <section className="section-padding bg-background">
         <Container>
-          <SectionTitle eyebrow="Leadership & Teachers" title="Experienced educators with a student-first mindset." subtitle="Faculty profiles include qualification, experience, department, and role clarity." />
+          <SectionTitle eyebrow="Leadership" title="Guidance from the Headmaster." subtitle="Mehar Academy is led with a focus on English medium education, Urdu subject learning, discipline, and student care." />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {faculty.map((person) => (
               <article className="premium-card premium-card-hover overflow-hidden text-center" key={person.name}>

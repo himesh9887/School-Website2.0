@@ -10,7 +10,7 @@ export default function Facilities() {
   return (
     <section className="section-padding bg-alternate">
       <Container>
-        <SectionTitle eyebrow="Facilities" title="A campus where learning feels alive." subtitle="Premium infrastructure for academics, safety, creativity, sport, and digital fluency." />
+        <SectionTitle eyebrow="Facilities" title="A clean campus where learning feels focused." subtitle="Classrooms, activity spaces, safety routines, transport support, and supervised school life." />
         <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {facilities.slice(0, 8).map(({ title, icon: Icon, image, text }) => (
             <Card className="overflow-hidden" key={title}>

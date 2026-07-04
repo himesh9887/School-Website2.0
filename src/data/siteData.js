@@ -8,35 +8,34 @@ import {
   CheckCircle2,
   ClipboardCheck,
   FileDown,
-  FlaskConical,
   GraduationCap,
   HeartHandshake,
+  Home,
   Languages,
-  LibraryBig,
   Mail,
   MapPin,
   Microscope,
-  MonitorSmartphone,
   Music,
   Phone,
   ShieldCheck,
   Sparkles,
-  Stethoscope,
   Trophy,
   UsersRound,
   Video,
-  Wifi,
 } from 'lucide-react';
 
 export const school = {
   name: 'Mehar Academy',
   shortName: 'Mehar Academy',
-  phone: '+91 90000 00000',
-  email: 'meharacademyofficial@gmail.com',
-  location: 'Mehar Academy Campus',
-  whatsapp: 'https://wa.me/910000000000?text=Hello%20Mehar%20Academy',
+  headmaster: 'Dr. Salaudeen Mehar',
+  phone: '+91 8078683410',
+  email: 'meharacademy25@gmail.com',
+  location: 'Badibass Neekach, PIN 301025',
+  whatsapp: 'https://wa.me/918078683410?text=Hello%20Mehar%20Academy',
   logo: '/mehar-logo.svg',
   banner: '/mehar-banner.svg',
+  heroImage: '/mehar-hero.jpeg',
+  headmasterImage: '/mehar-logo.svg',
 };
 
 export const navLinks = [
@@ -59,67 +58,62 @@ export const socialLinks = [
 
 export const heroSlides = [
   {
-    title: 'Learn. Grow. Succeed.',
+    title: 'English Medium Learning With Strong Values.',
     subtitle:
-      'Mehar Academy nurtures young learners with strong foundations, daily discipline, and caring guidance up to Class 8.',
-    image: school.banner,
+      'Mehar Academy provides caring English medium education from Nursery to Class 8 with Urdu as an important subject.',
+    image: school.heroImage,
   },
   {
-    title: 'A Caring School For Bright Young Minds.',
+    title: 'Nursery, Primary And Upper Primary.',
     subtitle:
-      'Classroom learning, activities, values, and safe routines help every child move forward with confidence.',
-    image:
-      'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1800&q=85',
+      'Classroom learning, activities, discipline, and safe routines help every child move forward with confidence.',
+    image: '/mehar-class-corridor.jpeg',
   },
   {
     title: 'Admissions Open For The 2026-27 Session.',
     subtitle:
       'Admissions are open from Nursery to Class 8. Book a visit and meet the Mehar Academy team.',
-    image:
-      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1800&q=85',
+    image: '/mehar-campus-gate.jpeg',
   },
 ];
 
 export const stats = [
   { value: 8, suffix: 'th', label: 'Classes Up To' },
-  { value: 25, suffix: '+', label: 'Dedicated Teachers' },
-  { value: 500, suffix: '+', label: 'Learners Guided' },
-  { value: 100, suffix: '%', label: 'Child Focused' },
-  { value: 3, suffix: '+', label: 'Learning Stages' },
+  { value: 2015, suffix: '', label: 'Established' },
+  { value: 3, suffix: '', label: 'Academic Wings' },
+  { value: 100, suffix: '%', label: 'English Medium' },
+  { value: 1, suffix: '', label: 'Urdu Subject' },
 ];
 
 export const whyChoose = [
-  { title: 'Mentor-Led Learning', icon: UsersRound, text: 'Every learner receives academic guidance, wellbeing check-ins, and personal growth goals.' },
-  { title: 'Strong Foundations', icon: Languages, text: 'Focused reading, writing, numeracy, communication, and values for Nursery to Class 8.' },
-  { title: 'Activity-Based Growth', icon: Brain, text: 'Children learn through practice, projects, presentations, competitions, and reflection.' },
-  { title: 'Safe School Culture', icon: ShieldCheck, text: 'Child-first routines, caring staff, secure spaces, and clear communication with families.' },
+  { title: 'English Medium School', icon: Languages, text: 'Students learn through English medium instruction with daily focus on reading, writing, and speaking.' },
+  { title: 'Urdu As A Subject', icon: BookOpenCheck, text: 'Urdu is taught as an important subject along with core academic learning.' },
+  { title: 'Strong Foundations', icon: Brain, text: 'Nursery, Primary, and Upper Primary students build basics through practice, discipline, and activities.' },
+  { title: 'Safe School Culture', icon: ShieldCheck, text: 'Caring staff, clear routines, and a focused campus environment support every child.' },
 ];
 
 export const programs = [
-  { title: 'Nursery', icon: Sparkles, text: 'Play-based discovery, phonics, numeracy, movement, rhythm, and social confidence.' },
-  { title: 'Primary', icon: BookOpenCheck, text: 'Concept clarity, reading fluency, handwriting, projects, sports, and values education.' },
-  { title: 'Junior', icon: Brain, text: 'Classes 6 to 8 build subject confidence, communication, responsibility, and guided independence.' },
-  { title: 'Class 8', icon: GraduationCap, text: 'Focused preparation, revision habits, leadership roles, and readiness for the next academic stage.' },
+  { title: 'Nursery', icon: Sparkles, text: 'Early learning with play, phonics, numbers, poems, stories, manners, and social confidence.' },
+  { title: 'Primary', icon: BookOpenCheck, text: 'Classes 1 to 5 focus on English, Mathematics, EVS, Hindi, Urdu, handwriting, activities, and values.' },
+  { title: 'Upper Primary', icon: Brain, text: 'Classes 6 to 8 build subject confidence, communication, responsibility, and regular study habits.' },
 ];
 
 export const facilities = [
-  { title: 'Computer Lab', icon: MonitorSmartphone, category: 'Technology', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80', text: 'High-speed systems, coding modules, AI literacy, and supervised digital citizenship.' },
-  { title: 'Science Lab', icon: FlaskConical, category: 'Academics', image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=900&q=80', text: 'Physics, chemistry, and biology labs built for experimentation and inquiry.' },
-  { title: 'Library', icon: LibraryBig, category: 'Academics', image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80', text: 'Reading lounges, journals, digital catalogs, and quiet research corners.' },
-  { title: 'Smart Classes', icon: Wifi, category: 'Technology', image: 'https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=900&q=80', text: 'Interactive panels, classroom analytics, and blended learning workflows.' },
-  { title: 'Sports Arena', icon: Trophy, category: 'Sports', image: 'https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=900&q=80', text: 'Courts, turf, athletics coaching, yoga, and inter-school competition pathways.' },
-  { title: 'Transport', icon: Bus, category: 'Safety', image: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=900&q=80', text: 'GPS-enabled buses, verified drivers, attendants, and live route updates.' },
-  { title: 'Medical Room', icon: Stethoscope, category: 'Safety', image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80', text: 'On-campus nurse support, first-aid protocols, and emergency response readiness.' },
-  { title: 'CCTV Security', icon: Video, category: 'Safety', image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=900&q=80', text: 'Monitored entrances, access control, visitor management, and secure zones.' },
+  { title: 'Clean Classrooms', icon: Home, category: 'Campus', image: '/mehar-classroom.jpeg', text: 'Bright classrooms with boards, charts, seating, ventilation, and a calm learning atmosphere.' },
+  { title: 'Academic Block', icon: GraduationCap, category: 'Academics', image: '/mehar-class-corridor.jpeg', text: 'Organized classrooms and corridors support daily teaching from Nursery to Class 8.' },
+  { title: 'Safe Campus', icon: ShieldCheck, category: 'Safety', image: '/mehar-campus-gate.jpeg', text: 'A secure campus entrance, clear routines, and staff supervision help children feel safe.' },
+  { title: 'Activity Learning', icon: Music, category: 'Activities', image: '/mehar-campus-collage.jpeg', text: 'Students learn through recitation, reading, writing, classroom activities, and value-based programs.' },
+  { title: 'Sports And Play', icon: Trophy, category: 'Growth', image: '/mehar-campus-side.jpeg', text: 'Games, movement, and school activities support confidence, discipline, and healthy development.' },
+  { title: 'School Transport', icon: Bus, category: 'Support', image: '/mehar-campus-side.jpeg', text: 'Transport support is available for families as per school routes and timing.' },
+  { title: 'CCTV Security', icon: Video, category: 'Safety', image: '/mehar-class-corridor.jpeg', text: 'Campus monitoring and supervision support a safe school environment.' },
 ];
 
 export const galleryItems = [
-  { category: 'Campus', title: 'Main Academic Block', image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80' },
-  { category: 'Classrooms', title: 'Collaborative Classrooms', image: 'https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?auto=format&fit=crop&w=900&q=80' },
-  { category: 'Events', title: 'Annual Leadership Summit', image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=900&q=80' },
-  { category: 'Sports', title: 'Inter-School Sports Day', image: 'https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=900&q=80' },
-  { category: 'Photos', title: 'Library Reading Hour', image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80' },
-  { category: 'Campus', title: 'Science Discovery Lab', image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80' },
+  { category: 'Campus', title: 'Mehar Academy Entrance', image: '/mehar-campus-gate.jpeg' },
+  { category: 'Classrooms', title: 'Classroom Learning', image: '/mehar-classroom.jpeg' },
+  { category: 'Classrooms', title: 'Students With Teacher', image: '/mehar-class-corridor.jpeg' },
+  { category: 'Campus', title: 'School Campus Collage', image: '/mehar-campus-collage.jpeg' },
+  { category: 'Campus', title: 'Campus Side View', image: '/mehar-campus-side.jpeg' },
 ];
 
 export const newsItems = [
@@ -130,12 +124,7 @@ export const newsItems = [
 ];
 
 export const faculty = [
-  { name: 'Mehar Academy Principal', role: 'Principal', department: 'Leadership', qualification: 'Education Leadership', experience: '15+ years', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Academic Coordinator', role: 'Coordinator', department: 'Academics', qualification: 'Curriculum Planning', experience: '12+ years', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Primary Wing Lead', role: 'Teacher', department: 'Primary', qualification: 'Primary Education', experience: '10+ years', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Science Faculty', role: 'Teacher', department: 'Science', qualification: 'Science Education', experience: '8+ years', image: 'https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?auto=format&fit=crop&w=700&q=80' },
-  { name: 'English Faculty', role: 'Teacher', department: 'Languages', qualification: 'English Education', experience: '8+ years', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=80' },
-  { name: 'Activity Incharge', role: 'Teacher', department: 'Activities', qualification: 'Sports And Activities', experience: '10+ years', image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=80' },
+  { name: school.headmaster, role: 'Headmaster', department: 'School Leadership', qualification: 'Headmaster, Mehar Academy', experience: 'English Medium School Administration', image: '/mehar-campus-collage.jpeg' },
 ];
 
 export const testimonials = [
@@ -151,10 +140,10 @@ export const events = [
 ];
 
 export const timeline = [
-  { year: 'Start', title: 'Mehar Academy was founded', text: 'Started with a promise of personal attention, values, and strong basics.' },
+  { year: '2015', title: 'Mehar Academy was founded', text: 'Started with a promise of personal attention, values, and strong basics.' },
   { year: 'Primary', title: 'Primary wing strengthened', text: 'Built clear routines for reading, writing, numeracy, and activity-based learning.' },
-  { year: 'Middle', title: 'Classes up to 8th', text: 'Expanded focused learning for junior and middle school children.' },
-  { year: 'Now', title: 'Learn, grow, succeed', text: 'Continuing with discipline, care, communication, and steady academic growth.' },
+  { year: 'Upper Primary', title: 'Classes up to 8th', text: 'Expanded focused learning for upper primary children.' },
+  { year: 'Now', title: 'English medium with Urdu subject', text: 'Continuing with discipline, care, communication, Urdu learning, and steady academic growth.' },
 ];
 
 export const admissionSteps = [
@@ -173,7 +162,7 @@ export const downloads = [
 export const contactItems = [
   { label: school.phone, icon: Phone, href: `tel:${school.phone.replaceAll(' ', '')}` },
   { label: school.email, icon: Mail, href: `mailto:${school.email}` },
-  { label: school.location, icon: MapPin, href: 'https://maps.google.com' },
+  { label: school.location, icon: MapPin, href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`Mehar Academy ${school.location}`)}` },
 ];
 
 export const values = [

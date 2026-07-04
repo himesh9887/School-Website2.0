@@ -16,7 +16,7 @@ export default function Footer() {
             <strong className="min-w-0 text-lg font-black leading-tight sm:text-xl">{school.name}</strong>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-7 text-white/68 sm:mt-5 sm:text-base sm:leading-8">
-            A caring learning community committed to strong basics, good values, safe growth, and confidence up to Class 8.
+            English medium education from Nursery to Class 8 with Urdu as a subject, strong basics, discipline, and safe growth.
           </p>
           <div className="mt-5 flex justify-center gap-3 sm:mt-6 sm:justify-start">
             <a aria-label="Facebook" className="grid h-11 w-11 place-items-center rounded-full bg-white/10 transition hover:bg-accent hover:text-dark" href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>

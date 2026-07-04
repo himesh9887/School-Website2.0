@@ -15,7 +15,7 @@ export default function Gallery() {
 
   return (
     <>
-      <PageBanner eyebrow="Gallery" title="A visual story of campus life." text="Filter photos by events, sports, classrooms, campus, and everyday learning moments." image="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="Gallery" title="A visual story of Mehar Academy." text="View real campus, classroom, and Headmaster photos from Mehar Academy." image="/mehar-campus-collage.jpeg" />
       <section className="section-padding bg-background">
         <Container>
           <SectionTitle eyebrow="Gallery Filter" title="Explore moments by category." subtitle="Hover for captions or open a larger preview." />

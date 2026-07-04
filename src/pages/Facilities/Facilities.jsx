@@ -9,10 +9,10 @@ import { stagger } from '../../utils/animations.js';
 export default function Facilities() {
   return (
     <>
-      <PageBanner eyebrow="Facilities" title="Premium spaces for focus, discovery, and safety." text="Explore technology labs, libraries, studios, sports areas, medical support, transport, and secure campus systems." image="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="Facilities" title="Clean spaces for study, activity, and safety." text="Explore Mehar Academy classrooms, campus areas, activity learning, transport support, and supervised school routines." image="/mehar-campus-collage.jpeg" />
       <section className="section-padding bg-background">
         <Container>
-          <SectionTitle eyebrow="Campus Facilities" title="Every facility has a learning purpose." subtitle="Modern spaces make school days smoother, richer, safer, and more memorable." />
+          <SectionTitle eyebrow="Campus Facilities" title="Every facility supports daily school life." subtitle="Classrooms, campus supervision, activities, and support systems keep school days focused and safe." />
           <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {facilities.map(({ title, icon: Icon, image, text, category }) => (
               <Card className="overflow-hidden" key={title}>

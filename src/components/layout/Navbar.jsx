@@ -45,7 +45,7 @@ export default function Navbar() {
               </NavLink>
               {item.label === 'Academics' && (
                 <div className="pointer-events-none absolute left-1/2 top-full w-56 -translate-x-1/2 translate-y-3 rounded-card border border-border bg-white p-3 text-dark opacity-0 shadow-premium transition duration-300 group-hover:pointer-events-auto group-hover:translate-y-2 group-hover:opacity-100">
-                  {['Nursery', 'Primary', 'Class 6', 'Class 7', 'Class 8'].map((label) => (
+                  {['Nursery', 'Primary', 'Upper Primary'].map((label) => (
                     <NavLink className="block rounded-2xl px-4 py-3 text-sm font-bold hover:bg-alternate hover:text-primary" to="/academics" key={label}>{label}</NavLink>
                   ))}
                 </div>

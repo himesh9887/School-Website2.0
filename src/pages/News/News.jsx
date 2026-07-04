@@ -6,7 +6,7 @@ import { newsItems } from '../../data/siteData.js';
 export default function News() {
   return (
     <>
-      <PageBanner eyebrow="News" title="Announcements, events, and achievements." text="Follow important notices, holiday lists, competitions, school events, and community milestones." image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1800&q=85" />
+      <PageBanner eyebrow="News" title="Announcements, events, and notices." text="Follow admission updates, school activities, language weeks, assessments, and parent notices from Mehar Academy." image="/mehar-class-corridor.jpeg" />
       <section className="section-padding bg-background">
         <Container>
           <SectionTitle eyebrow="Latest Updates" title="Everything families need to know." subtitle="Beautiful cards and a clean timeline make updates easy to scan." />
