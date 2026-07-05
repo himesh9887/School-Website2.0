@@ -26,7 +26,7 @@ export default function About() {
                   {[
                     'To nurture confident learners with strong basics, good manners, clear communication, and responsible habits.',
                     'To provide English medium education from Nursery to Class 8 with Urdu as an important subject and value-based learning.',
-                    'Established in 2015, Mehar Academy has grown as a local school community for young learners.',
+                    'Established in 2022, Mehar Academy has grown as a local school community for young learners.',
                     'Daily discipline, classroom activity, parent trust, and steady academic progress.',
                   ][index]}
                 </p>

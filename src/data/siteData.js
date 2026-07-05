@@ -35,7 +35,7 @@ export const school = {
   logo: '/mehar-logo.svg',
   banner: '/mehar-banner.svg',
   heroImage: '/mehar-hero.jpeg',
-  headmasterImage: '/mehar-logo.svg',
+  headmasterImage: '/headmaster.jpeg',
 };
 
 export const navLinks = [
@@ -79,7 +79,7 @@ export const heroSlides = [
 
 export const stats = [
   { value: 8, suffix: 'th', label: 'Classes Up To' },
-  { value: 2015, suffix: '', label: 'Established' },
+  { value: 2022, suffix: '', label: 'Established' },
   { value: 3, suffix: '', label: 'Academic Wings' },
   { value: 100, suffix: '%', label: 'English Medium' },
   { value: 1, suffix: '', label: 'Urdu Subject' },
@@ -140,7 +140,7 @@ export const events = [
 ];
 
 export const timeline = [
-  { year: '2015', title: 'Mehar Academy was founded', text: 'Started with a promise of personal attention, values, and strong basics.' },
+  { year: '2022', title: 'Mehar Academy was founded', text: 'Started with a promise of personal attention, values, and strong basics.' },
   { year: 'Primary', title: 'Primary wing strengthened', text: 'Built clear routines for reading, writing, numeracy, and activity-based learning.' },
   { year: 'Upper Primary', title: 'Classes up to 8th', text: 'Expanded focused learning for upper primary children.' },
   { year: 'Now', title: 'English medium with Urdu subject', text: 'Continuing with discipline, care, communication, Urdu learning, and steady academic growth.' },
